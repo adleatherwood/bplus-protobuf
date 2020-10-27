@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package examples.entities;
+
+import "Components.proto";
+
+message Person {
+    string id = 1;
+    int Age = 2;
+    examples.components.Name Name = 3;
+    examples.components.Address Address = 4;
+}

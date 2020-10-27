@@ -1,0 +1,8 @@
+.ionide
+.vscode
+tests
+src
+coverage
+tsconfig.json
+jest.config.js
+tsconfig.test.json

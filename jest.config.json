@@ -1,0 +1,14 @@
+{
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "globals": {
+        "ts-jest": {
+            "tsConfig": "tsconfig.test.json"
+        }
+    },
+    "moduleDirectories": [
+        "node_modules",
+        "node_modules/bplus-composer/build",
+        "node_modules/bplus-parser/build"
+    ]
+}

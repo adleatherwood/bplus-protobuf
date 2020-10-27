@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package examples.components;
+
+message Name {
+    string first = 1;
+    string last = 2;
+}
+
+message Address {
+    string line1 = 1;
+    string line2 = 2;
+    string street = 3;
+    string city = 4;
+    string zip = 5;
+}
+
+message Unrelated {
+    string value1 = 1;
+}
