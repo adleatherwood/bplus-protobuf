@@ -2,6 +2,9 @@
 
 A Protocol Buffer 3 compliant parser written in TypeScript.
 
+![pipeline](https://gitlab.com/adleatherwood/bplus-protobuf/badges/master/pipeline.svg)
+![coverage](https://gitlab.com/adleatherwood/bplus-protobuf/badges/master/coverage.svg)
+
 #### Note
 
 This project is maintained over at GitLab: https://gitlab.com/adleatherwood/bplus-protobuf
