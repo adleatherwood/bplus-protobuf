@@ -1,6 +1,6 @@
 {
     "name": "bplus-protobuf",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A protocol buffer parser",
     "main": "bplus-protobuf.ts",
     "scripts": {
@@ -16,9 +16,11 @@
     "author": "Anthony Leatherwood",
     "license": "GPL-3.0-or-later",
     "dependencies": {
-        "@types/jest": "^26.0.14",
         "bplus-composer": "^1.0.1",
-        "bplus-parser": "^1.1.2",
+        "bplus-parser": "^1.1.2"
+    },
+    "devDependencies": {
+        "@types/jest": "^26.0.14",
         "jest": "^26.4.2",
         "ts-jest": "^26.4.0",
         "typescript": "^4.0.3"
