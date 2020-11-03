@@ -1,4 +1,4 @@
-# bplus-protobuf
+# BPLUS-PROTOBUF
 
 A Protocol Buffer 3 compliant parser written in TypeScript.
 
@@ -8,6 +8,14 @@ A Protocol Buffer 3 compliant parser written in TypeScript.
 #### Note
 
 This project is maintained over at GitLab: https://gitlab.com/adleatherwood/bplus-protobuf
+
+## Install
+
+https://www.npmjs.com/package/bplus-protobuf
+
+```sh
+npm i bplus-protobuf
+```
 
 ## Read a single proto file
 
