@@ -1,6 +1,6 @@
 {
     "name": "bplus-protobuf",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A protocol buffer parser",
     "main": "bplus-protobuf.ts",
     "scripts": {

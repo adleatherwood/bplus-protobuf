@@ -3,6 +3,9 @@
 tests
 src
 coverage
+samples
 tsconfig.json
-jest.config.js
+jest.config.json
 tsconfig.test.json
+tsconfig.test.tsbuildinfo
+.gitlab-ci.yml
