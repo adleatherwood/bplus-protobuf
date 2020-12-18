@@ -1,0 +1,17 @@
+{
+    "name": "bplus-protobuf",
+    "version": "1.0.4",
+    "description": "A protocol buffer parser",
+    "main": "./build",
+    "types": "./build",
+    "keywords": [
+        "protocol",
+        "buffers"
+    ],
+    "author": "Anthony Leatherwood",
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "bplus-composer": "^1.0.5",
+        "bplus-parser": "^1.1.4"
+    }
+}

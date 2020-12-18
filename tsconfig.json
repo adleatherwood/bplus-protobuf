@@ -13,8 +13,8 @@
         // "declarationMap": true,                /* Generates a sourcemap for each corresponding '.d.ts' file. */
         "sourceMap": false, /* Generates corresponding '.map' file. */
         //"outFile": "./build/bplus.js",                       /* Concatenate and emit output to single file. */
-        "outDir": "build", /* Redirect output structure to the directory. */
-        "rootDir": "src", /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+        "outDir": "package/build", /* Redirect output structure to the directory. */
+        "rootDir": "package/src", /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
         // "composite": true,                     /* Enable project compilation */
         // "tsBuildInfoFile": "./",               /* Specify file to store incremental compilation information */
         // "removeComments": true,                /* Do not emit comments to output. */
@@ -60,8 +60,8 @@
         "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
     },
     "include": [
-        "src/**/*",
-        "tests/proto3.spec.ts"
+        "package/src/**/*",
+        "package/tests/proto3.spec.ts"
     ],
     "exclude": [
         "node_modules",
